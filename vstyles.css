@@ -1,0 +1,175 @@
+/* *{
+  background-color: black;
+} */
+.header{
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vipsbuild.jpg);
+}
+body{
+  font-family: 'Montserrat';
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat';
+}
+   /* heading section */
+.big-heading {
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;}
+.container-fluid{
+  padding: 7% 15%;
+  color: red;
+}
+.features-heading{
+  font-weight: bold;
+  color: #000;
+}
+/* title section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+  .title-img {
+  width: 20%;
+  transform: rotate(25deg); /* Equal to rotateZ(25deg)*/
+  position: absolute;
+  right: 30%;
+}
+
+/* Navbar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+ .navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    }
+.feature-title{
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.icon{
+  color: #0F044C;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+color: #96BAFF;
+}
+/* 0F044C */
+.modify{
+  text-decoration: none;
+  color: #0F044C ;
+}
+.section-heading{
+  color: #0F044C;
+}
+.card-text{
+  color: #787A91;
+}
+a{
+  text-decoration: none;
+}
+p{
+  color: #8f8f8f;
+}
+.features-box{
+  padding: 5%;
+}
+/* i{
+  text-align: center;
+} */
+/* testimonials */
+#testimonials{
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vipsbuild.jpg);
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.textwhite{
+  color: white;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Section */
+.coloured-section{
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+.section-heading{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+}
+ .pricing-column{
+  padding: 3% 5%;
+}
+.price-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.map{
+      padding-bottom: 100px;
+}
+
+/* Footer */
+#footer{
+  padding: 0 15%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(sea.jpg);
+}
+.social-icon{
+  margin: 20px 10px;
+  color: #fff;
+
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    width: 70%;
+  }
+
+}
